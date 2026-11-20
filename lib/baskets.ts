@@ -310,10 +310,6 @@ export interface BasketExposurePreview {
   policy: BasketPolicy;
 }
 
-  /** Per-period returns for this member, as decimals (e.g. 0.01 = +1%). */
-  returns: number[];
-}
-
 /**
  * Build a NAV series from basket member performance.
  *
